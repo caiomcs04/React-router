@@ -1,6 +1,7 @@
 import React from "react";
 import imagem from "../assets/img/doguito.svg";
 import "../assets/css/componentes/cabecalho.css"
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -9,26 +10,26 @@ const Header = () => {
         <span className="menu-hamburger__icone"></span>
       </div>
       <div className="cabecalho-container">
-        <a href="/" className="flex flex--centro">
+        <Link to="/" className="flex flex--centro">
           <img className="cabecalho__logo" src={imagem} alt="" />
           <h1 className="cabecalho__titulo">PetShop</h1>
-        </a>
+        </Link>
       </div>
       <nav className="menu-cabecalho">
         <ul className="menu-itens">
           <li>
-            <a href="#" className="menu-item menu-item--entrar">
+            <Link to="#" className="menu-item menu-item--entrar">
               Entrar
-            </a>
+            </Link>
           </li>
           <li>
-              <a href="#" className="menu-item">Produto</a>
+              <Link to="#" className="menu-item">Produto</Link>
           </li>
           <li>
-              <a href="#" className="menu-item">Blog</a>    
+              <Link to="#" className="menu-item">Blog</Link>    
           </li>
           <li>
-              <a href="/about" className="menu-item">Sobre</a>
+              <Link to="/about" className="menu-item">Sobre</Link>
           </li>
         </ul>
       </nav>
