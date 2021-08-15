@@ -36,47 +36,10 @@ A petshop app made in React to practice creating routes.
 >   json-server --watch db.json --port 5000
 > ```
 
-> Exemplo: 
->
-> Após ter configurado o projeto e ter aguardado a instalação das dependencias de desenvolvimento, execute o comando:
-> ```
-> 	yarn start
-> ```
-> A aplicação estará disponível para visualização em seu navegador, caso isso não aconteça automaticamente abre o navegador no seguinte endereço: _localhost:3000_
-
-## Funcionalidades
-
-Imagine aqui que outra pessoa configurou e executou o seu projeto, apresente então as principais funcionalidade que seu projeto tem e onde encontrar, dessa forma ela vai conseguir testar e usar tudo o que foi desenvolvido.
-
-Você ao fazer isso evita que o usuário da aplicação, por não ter conhecimento, pule ou não veja o que seu projeto é capaz de fazer.
-
-> Exemplo: 
->
-> Este projeto visa a funcionalidade de ser: 
-> - Template de README.md em PORTUGUÊS - PTBR;
-> - Artigo explicando e exemplificando tópicos de documentação;
-
-
-## Testes
-
-Sua aplicação contempla testes? Se sim, explique como executar os testes automatizados para este sistema; você também pode anexar aqui as capturas de telas (prints) dos testes que você fez ou de um determinado comportamento da aplicação.
-
-Tipos de testes: 
-- Unitários
-- Performance
-- Segurança
-- Regressão
-
-Dentre outros...
-> Exemplo de comando para execução de testes em uma aplicação:
-> ```
-> 	yarn test
-> ```
-
 ## Functionalities
 
 > This project aims at the functionality of being: 
-> - A sample of a basic react routes create. Using an fictitious petshop to pratice it.
+> - A sample of fictitious petshop, focused on programming practice of react routers
 
 ## Authors
 
