@@ -1,45 +1,40 @@
-# Nome do Projeto
+# React Router
 
-Breve descrição (preferencialmente em um paragrafo) do projeto abordando o porque da sua criação, objetivo ou ideia de utilização.
+A petshop app made in React to practice creating routes.
 
-> Exemplo:
->
-> Este projeto visa ajudar diretamente os desenvolvedores, principalmente aqueles que não se sentem confortável com o inglês, na elaboração da descrição de seus projetos, fornecendo neste template uma base com tópicos, exemplos de como e o que colocar no README.md.
-
-## Pré-requisitos
-
-Informe aqui tudo que é obrigatório previamente já ter sido configurado/instalado no ambiente que será executado sua aplicação; exemplifique também como fazê-lo;
+## Prerequisites
 
 > Exemplo (Para criar uma aplicação com React):
 > - **Node** com versão superior ou igual que 8.1 - [Node Donwload](https://nodejs.org/pt-br/download/)
 > - **NPM** com versão superior ou igual que 5.6 - [Npm Donwload](https://www.npmjs.com/package/download)
 
-## Instalação
+## Installation
 
-A pergunta a ser respondida aqui é: "Quais comandos precisará outra pessoa fazer para conseguir configurar o seu projeto?"
-
-Recomendo configurar o seu projeto em uma outra pasta/ambiente e anotar aqui todos os passos necessários para a execução.
-
-> Exemplo:
->
-> Clone esse projeto em seu computador com o comando:
+> Clone this project in your machine with the command:
 > ```
-> 	git clone [Url do seu repositório]
+> 	git clone [https://github.com/caiomcs04/React-router.git]
 > ```
-> Acesse a pasta do projeto seu terminal:
+> Access your terminal project folder:
 > ```
-> 	cd [Nome da pasta do seu Projeto]
+> 	cd [Your Project folder name]
 > ```
-> Já pasta da aplicação em seu terminal, digite o seguinte comando:
+> Already the application's folder in your terminal, type the following command to install the node-modules:
 > ```
-> 	yarn install
+> 	npm install
 > ```
 
-## Execução
+## Execution
 
-Esse é talvez o tópico mais importante, faça com atenção.
-
-Através das informações especificadas nele, outras pessoas poderam visualizar e testar o funcionamento da sua aplicação.
+>  When the installation is ready, start the application with the command::
+> ```
+> 	npm start
+> ```
+> The application will be available for viewing in your browser in [localhost](http://localhost:3000/)
+> 
+> You will also need to start the database. Start it with the command::
+>  ```
+>   json-server --watch db.json --port 5000
+> ```
 
 > Exemplo: 
 >
@@ -78,46 +73,11 @@ Dentre outros...
 > 	yarn test
 > ```
 
-## Links
+## Functionalities
 
-Mesmo que as informações possam estar sendo apresentadas no seu código, pode ocorrer de algumas pessoas não terem total entendimento sobre o que foi proposto ou determinados termos técnicos, você pode incluir um resumo dos links mais úteis para leitura dessas termos, por exemplo.
+> This project aims at the functionality of being: 
+> - A sample of a basic react routes create. Using an fictitious petshop to pratice it.
 
-> Exemplo: 
-> - [Guia de Markdown](https://docs.pipz.com/central-de-ajuda/learning-center/guia-basico-de-markdown#open)
-> - [Como formatar o Readme?](https://medium.com/@raullesteves/github-como-fazer-um-readme-md-bonit%C3%A3o-c85c8f154f8#:~:text=md%20%C3%A9%20um%20arquivo%20markdown,tags%20tamb%C3%A9m%20funcionam%2C%20veremos%20adiante.&text=Basta%20copiar%20o%20que%20o,e%20colar%20no%20README.md.)
+## Authors
 
-
-## Contribuições
-
-Seu projeto pode receber contribuições da comunidade? Se sim, utilize esse tópico;
-aqui você coloca as informações resumidas de como a pessoa poderá o ajudar com o projeto.
-
-> Exemplo:
-> - Para contribuir com esse projeto, fork este projeto, faça as modificações que tens desejo e crie um pull request; veja as instruções detalhadas no arquivo _CONTRIBUTING.md_.
-
-## Autores
-
-Informe o nome das pessoas envolvidas no desenvolvimento do projeto e se quiser atribua as respectivas redes sociais para contato da comunidade;
-
-> Exemplo (Deste projeto):
-> - **Lucas Anderson Lima** - Idealizador e Escritor da Documentação - [Github](https://github.com/LuAnderson) | [Site](http://lucasanderson.com.br/)
-
-
-## Licença 
-
-Existem vários tipos de licença open souce, para saber qual condiz mais com o seu projeto e até mesmo entender mais detalhadamente, recomendo verificar os tipos no seguinte site: [Escolha uma Licença](http://escolhaumalicenca.com.br/).
-
-> Exemplo: 
-> 
-> MIT License (MIT)
-
-## Agradecimentos 
-
-Aqui, sinta-se a vontade a agradecer quem você desejar, tenha sido uma pessoa que a incentivou no projeto, inspirador, colaborador, amigos, etc.  
-
-> Exemplo: 
-> 
-> Comunidade Front <3
-
----
-Autor ❤ [Lucas Anderson Lima](http://lucasanderson.com.br/)
+> - **Caio Moreira de Carvalho Sampaio** - [Linkedin](https://www.linkedin.com/in/caio-sampaio-b02a3669/) | [Email](caio6c@yahoo.com.br)
